@@ -14,6 +14,7 @@ void push(int item){
 }
 
 int pop(){
+    if(stackSize == 0)return;
     return stack[stackSize--];
 }
 
