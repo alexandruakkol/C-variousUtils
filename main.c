@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "stack.h"
 
 void printArray(const int arr[], short size){
     for(char i=0; i<size; i++){
@@ -56,5 +57,4 @@ void selectionSort(int arr[], int size){ //'sideeffects' the array
 }
 
 int main(){
-
 }
