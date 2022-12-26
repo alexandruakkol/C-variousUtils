@@ -57,4 +57,7 @@ void selectionSort(int arr[], int size){ //'sideeffects' the array
 }
 
 int main(){
+    push(4);
+    push(5);
+    printStack();
 }
